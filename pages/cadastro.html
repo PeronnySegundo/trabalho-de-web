@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/styles/Styles.css">
+</head>
+<body>
+    <div class="container">
+        <section class="titulo">
+            <h2>Cadastro</h2>
+        </section>
+        <form id="formulario" class="formulario">
+            <div class="conteudoDoFormulario">
+                <label for="username">Nome de usuário</label>
+                <input type="text" id="username" required />
+                <a>Mensagem de erro</a>
+            </div>
+            <div class="conteudoDoFormulario">
+                <label for="Email">Email</label>
+                <input type="email" id="email" required />
+                <a>Mensagem de erro</a>
+            </div>
+            <div class="conteudoDoFormulario">
+                <label for="password">Senha</label>
+                <input type="password" id="senha" required />
+                <a>Mensagem de erro</a>
+            </div>
+            <div class="conteudoDoFormulario">
+                <label for="password">Confirmar senha</label>
+                <input type="password" id="senhaConfirmacao" required />
+                <a>Mensagem de erro</a>
+            </div>
+            <div class="linguagemFavorita">
+                <h3>Linguagens favoritas</h3><br>
+                <label>
+                    <input type="checkbox" name="lingua" value="Python"> Python
+                </label><br>
+                <label>
+                    <input type="checkbox" name="lingua" value="Java"> Java
+                </label><br>
+                <label>
+                    <input type="checkbox" name="lingua" value="PHP"> PHP
+                </label><br>
+                <label>
+                    <input type="checkbox" name="lingua" value="C++"> C++
+                </label><br><br>
+            </div>
+            <button type="submit">Cadastrar-se</button>
+            <a class="redirect" href="/pages/login.html">Já tem uma conta? Entre</a>
+        </form>
+    </div>
+    <script src="/scripts/CadastroScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/styles/Styles.css">
+</head>
+<body>
+    <div class="container">
+        <section class="titulo">
+            <h2>Login</h2>
+        </section>
+        <form id="formulario" class="formulario">
+            <div class="conteudoDoFormulario">
+                <label for="Email">Email</label>
+                <input type="email" id="email" required />
+                <a>Mensagem de erro</a>
+            </div>
+            <div class="conteudoDoFormulario">
+                <label for="password">Senha</label>
+                <input type="password" id="senha" required />
+                <a>Mensagem de erro</a>
+            </div>
+            <button type="submit">Entrar</button>
+            <a class="redirect" href="/pages/cadastro.html">Não tem uma conta? Registre-se</a>
+        </form>
+    </div>
+    <script src="/scripts/LoginScript.js"></script>
+</body>
+</html>
